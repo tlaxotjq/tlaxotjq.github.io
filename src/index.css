@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  --main-font: "Pretendard Variable", "Pretendard", "Noto Sans KR", 'CookieRun-Regular', "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --main-color: #FEC55C;
+  font-family: var(--main-font);
+  box-sizing: border-box;
+  line-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea,
+button,
+select {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--main-font) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--main-font) !important;
+}
